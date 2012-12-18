@@ -22,7 +22,7 @@ clear all;
 % Number of receiving nodes:
 params.Nrx = 4;
 
-% Number of subchannels:
+% Number of subcarriers:
 params.Nsubcar = 64;
 
 % Number of zero padding bins at low frequencies (should be odd):
@@ -168,9 +168,9 @@ params.run_minor = 0;
 % --------------------------------
 
 
-warplab_ofdm_func(params);
+ofdm_func(params);
 
 % for ii = 1:32
 %     params.run_minor = ii;
-%     warplab_ofdma_func(params);
+%     ofdm_func(params);
 % end
