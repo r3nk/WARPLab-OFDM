@@ -31,7 +31,7 @@ Note that these functions are not tied to OFDM but may be used to transceive any
 License
 ------------
 
-Please see [LICENSE.txt](https://github.com/R3nK/WARPLab-OFDM/blob/master/LICENSE.txt) for detailed licensing information. 
+Please see [LICENSE.txt](https://github.com/r3nk/WARPLab-OFDM/blob/master/LICENSE.txt) for detailed licensing information. 
 Note that any use of the framework which results in an academic publication or other publication which includes a bibliography must include a citation to the author's publication *A Rapid Prototyping Framework for Practical OFDMA Systems using Software Defined Radios*. 
 A BibTeX cite key is available at the [SEEMOO][SEEMOO-OFDM] page. 
 
@@ -62,7 +62,7 @@ References
 ------------
 
 This OFDM framework at GitHub:  
-<https://github.com/R3nK/WARPLab-OFDM>
+<https://github.com/r3nk/WARPLab-OFDM>
 
 Secure Mobile Networking Lab - SEEMOO:  
 <http://www.seemoo.tu-darmstadt.de>
