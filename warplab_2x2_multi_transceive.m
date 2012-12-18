@@ -545,7 +545,7 @@ end
 if n_rx > 1
     rx2_rssi_avg = mean(rx2_rssi);
     rx2_rssi_avg_dBm = (70/1023) * rx2_rssi_avg - 70 - (rx2_gain_rf-1)*15;
-    fprintf('RX2 RSSI dBm = %5.2f\n',rx2_rssi_avg_dBm);
+    fprintf('\nRX2 RSSI dBm = %5.2f\n',rx2_rssi_avg_dBm);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

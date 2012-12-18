@@ -699,17 +699,17 @@ end
 if n_rx > 1
     rx2_rssi_avg = mean(rx2_rssi);
     rx2_rssi_avg_dBm = (70/1023) * rx2_rssi_avg - 70 - (rx2_gain_rf-1)*15;
-    fprintf('RX2 RSSI dBm = %5.2f\n',rx2_rssi_avg_dBm);
+    fprintf('\nRX2 RSSI dBm = %5.2f\n',rx2_rssi_avg_dBm);
 end
 if n_rx > 2
     rx3_rssi_avg = mean(rx3_rssi);
     rx3_rssi_avg_dBm = (70/1023) * rx3_rssi_avg - 70 - (rx3_gain_rf-1)*15;
-    fprintf('RX3 RSSI dBm = %5.2f\n',rx3_rssi_avg_dBm);
+    fprintf('\nRX3 RSSI dBm = %5.2f\n',rx3_rssi_avg_dBm);
 end
 if n_rx > 3
     rx4_rssi_avg = mean(rx4_rssi);
     rx4_rssi_avg_dBm = (70/1023) * rx4_rssi_avg - 70 - (rx4_gain_rf-1)*15;
-    fprintf('RX4 RSSI dBm = %5.2f\n',rx4_rssi_avg_dBm);
+    fprintf('\nRX4 RSSI dBm = %5.2f\n',rx4_rssi_avg_dBm);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
