@@ -33,7 +33,7 @@ License
 
 Please see [LICENSE.txt](https://github.com/r3nk/WARPLab-OFDM/blob/master/LICENSE.txt) for detailed licensing information. 
 Note that any use of the framework which results in an academic publication or other publication which includes a bibliography must include a citation to the author's publication *A Rapid Prototyping Framework for Practical OFDMA Systems using Software Defined Radios*. 
-A BibTeX cite key is available at the [SEEMOO][SEEMOO-OFDM] page. 
+The corresponding BibTeX citation code is available as [Citation.bib](https://github.com/r3nk/WARPLab-OFDM/blob/master/Citation.bib) in this repository. 
 
 
 
